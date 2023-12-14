@@ -12,26 +12,29 @@
     <div class="container-geral">
         <div class="box">
             <div class="left">
-                <img src="./imgs/Design_sem_nome-removebg-preview.png" alt="robo">
+                <img src="./imgs/robo.png" alt="robo">
             </div>
             <div class="right">
                 <div class="form">
                     <div class="titles">
-                        <h1>Welcome to back</h1>
+                        <h1>Welcome to back!</h1>
                         <p>Please enter your details</p>
                     </div>
                     <form class="login-form" action="">
-                        <input class="login_input" type="email" placeholder="enter your email" required maxlength="70">
-                        <span class="login_input_border">Email</span>
-
-                        <input class="login_input" type="password" placeholder="********" required maxlength="25"
+                        <label for="inputEmail" class="login_input_border">Email</label>
+                        <input class="login-input" type="email" id="inputEmail" placeholder="Enter your email" required maxlength="70">
+                    
+                        <label for="inputPassword" class="login_input_border">Password</label>
+                        <input class="login-input" type="password" id="inputPassword" placeholder="********" required maxlength="25"
                             minlength="8">
-                        <span class="login_input_border">Password</span>
-
-                        <input type="checkbox" name="remember" id=""><span>remember me</span>
-
-                        <button>Login</button>
+                        <div class="remember">
+                            <input type="checkbox"><span>Remember me</span>
+                        </div>
                     </form>
+                    <hr>
+                    <button class="submit">Sign in</button>
+                    <br>
+                    <a href="">Forgot password?</a>
                 </div>
             </div>
         </div>

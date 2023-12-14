@@ -1,10 +1,14 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@400;700&display=swap'); 
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container-geral{
+.container-geral {
+    background-color: rgb(41,101,194);
     height: 100vh;
     align-items: center;
     display: flex;
@@ -13,26 +17,35 @@
     justify-content: center;
 }
 
-.box{
-    background-color: rgb(152, 88, 197);
+.box {
+    background-color: #ffffff3f;
     width: 75vw;
     display: grid;
     grid-template-columns: 50% 50%;
     border-radius: 30px;
-    
 }
 
-.left{
+.left {
     display: flex;
     justify-content: center;
     align-content: center;
+    animation: flutuar 5s ease-in-out infinite;
 }
 
-.left img{
+@keyframes flutuar {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+}
+
+.left img {
     width: 28rem;
 }
 
-.right{
+.right {
     width: 28rem;
     max-height: 400px;
     padding: 30px;
@@ -42,26 +55,95 @@
     justify-content: center;
 }
 
-.form{
-    background-color: #A492B1;
+.form {
+    border: 2px solid rgb(41,101,194);
     width: 25rem;
-    height: 300px;
-    padding: 10%;
-    margin-top: 30px;
+    height: 400px;
+    padding: 5%;
+    margin-top: 40px;
 }
 
-.form .titles{
+.form .titles {
     color: #fff;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
- .form button{
-    background-color: #A492B1;
+.form button {
+    background-color: rgb(41,101,194);
     border: none;
-    width: 150px;
+    width: 50%;
+    margin-left: 25%;
     height: 45px;
     color: #fff;
     border-radius: 20px;
-    margin-top: 25px;
- }
+    margin-top: 5px;
+}
+
+.form a{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin-left: 35%;
+}
+
+.form button:hover {
+    background-color: #ED7F11;
+    transition: 0.5s;
+}
+
+.login {
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form .login-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(41,101,194);
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.login-form input:valid {
+    border: 2px solid rgb(41,101,194);
+}
+
+.login-form input:invalid {
+    border: 2px solid #ED7F11;
+}
+
+span {
+    color: rgb(8, 65, 151);
+}
+
+.remember {
+    display: flex;
+    align-content: center;
+}
+
+.remember span {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+hr {
+    margin: 10px auto 10px;
+    width: 100%;
+}
+
+.redes {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.redes img {
+    width: 40px;
+}
