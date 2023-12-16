@@ -86,6 +86,10 @@
     padding: 10px;
 }
 
+.login-input input{
+    color: #000;
+}
+
 .login-form input:valid {
     border: 2px solid rgb(41,101,194);
 }
