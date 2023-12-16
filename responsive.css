@@ -1,0 +1,142 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .box {
+        height: 60vh;
+        grid-template-columns: 45% 65%;
+        gap: 20px;
+    }
+
+    .right {
+        width: 24rem;
+        max-height: 350px;
+        padding: 25px;
+    }
+    
+    .form {
+        width: 21rem;
+        margin-top: 180px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        width: 75vw;
+        display: block;
+        padding: 5%;
+    }
+
+    .left img {
+        width: 24rem;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: 10%;
+        padding: 25px;
+    }
+    
+    .form {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .box {
+        width: 75vw;
+        display: block;
+        padding: 5%;
+    }
+
+    .left img {
+        width: 24rem;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: 10%;
+        padding: 25px;
+    }
+    
+    .form {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .box {
+        display: block;
+        width: 85vw;
+        padding: 5%;
+    }
+
+    .left img {
+        width: 24rem;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: 10%;
+        padding: 25px;
+    }
+    
+    .form {
+        margin-top: 0px;
+        width: 23rem;
+
+    }
+}
+
+@media (min-width: 391px) and (max-width: 480px) {
+    .box {
+        display: block;
+        width: 85vw;
+        padding: 5%;
+    }
+
+    .left img {
+        width: 24rem;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: 10%;
+        padding: 25px;
+    }
+    
+    .form {
+        margin-top: 0px;
+        width: 20rem;
+
+    }
+    
+
+}
+
+@media (min-width: 360px) and (max-width: 390px) {
+    .box {
+        display: block;
+        width: 85vw;
+        height: 95vh;
+        padding: 5%;
+    }
+
+    .left img {
+        width: 22rem;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: 10%;
+        padding: 25px;
+    }
+    
+    .form {
+        border: 2px solid rgb(41,101,194);
+        margin-top: 0px;
+        width: 17rem;
+
+    }
+    
+
+}
