@@ -86,7 +86,7 @@
     padding: 10px;
 }
 
-.login-input input{
+input{
     color: #000;
 }
 
@@ -101,6 +101,10 @@
 .remember {
     display: flex;
     align-content: center;
+}
+
+.remember input{
+    cursor: pointer;
 }
 
 .remember span {
@@ -122,6 +126,7 @@ hr {
     color: #fff;
     border-radius: 20px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .form button:hover {
